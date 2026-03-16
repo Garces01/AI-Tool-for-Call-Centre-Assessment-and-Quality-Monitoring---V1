@@ -1,0 +1,13 @@
+callcenter_ai/
+├── app.py                    ← Streamlit dashboard (run this)
+├── requirements.txt
+├── README.md
+├── models/
+│   └── analyzer.py           ← RoBERTa · BERT · DistilBERT + emotion + agent scoring
+├── utils/
+│   ├── speech_to_text.py     ← Whisper STT + TXT/CSV transcript parser
+│   └── report_generator.py   ← CSV / JSON / TXT export
+└── sample_data/
+    ├── sample_transcript_1.txt  (Tech support)
+    ├── sample_transcript_2.txt  (Banking dispute)
+    └── sample_transcript_3.csv  (Pharmacy)
